@@ -1,0 +1,26 @@
+{
+  "name": "discord-pokemon-bot",
+  "version": "1.0.0",
+  "description": "A discord bot that displays the information/stats of any pokemon written in any given voice channel.",
+  "main": "./src/app.js",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "discord.js": "github:discordjs/discord.js",
+    "node-opus": "^0.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanb01/discord-pokemon-bot.git"
+  },
+  "author": "tanb01",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tanb01/discord-pokemon-bot/issues"
+  },
+  "homepage": "https://github.com/tanb01/discord-pokemon-bot#readme"
+}
