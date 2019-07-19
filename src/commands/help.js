@@ -5,7 +5,7 @@ module.exports = {
 	name: 'help',
 	description: `Just use **${prefix}pokemon** where pokemon is the name of the pokemon you want to know more about`,
 	aliases: ['halp'],
-	usage: `${prefix}mewtwo or ${prefix}Mewtwo`,
+	usage: `${prefix}pikachu or ${prefix}Pikachu or ${prefix} Pikachu`,
 	cooldown: 5,
 	execute(message) {
     const embedMessage = new MessageEmbed()
