@@ -84,3 +84,5 @@ function getPokemonDamageRelations(typeUrl) {
 }
 
 bot.login(discord_token);
+
+// whassup my boys?
